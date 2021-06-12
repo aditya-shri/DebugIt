@@ -72,7 +72,7 @@ Here's why Debug it helps increase productivity:
 
 Of course, no product can be completly helpful since everyone needs may be different. So I'll be adding more in the near future. You may also suggest changes by opening an issue. 
 
-Note : In order to avoid plagiarism, I have removed some files from the project directory. Without them , this app will not work. If you want to use the project for personal use, please <a href="#contact">Contact</a> me
+<b>Note</b> : In order to avoid plagiarism, I have removed some files from the project directory. Without them , this app will not work. If you want to use the project for personal use, please <a href="#contact">Contact</a> me
 
 ### Built With
 
