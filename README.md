@@ -27,8 +27,6 @@
     <img src="images/logo.png" alt="Logo" width="200" height="80">
   </a>
 
-  <h3 align="center">Debug-It</h3>
-
   <p align="center">
     An awesome bug tracking web application made using Java-Servlet handling the backend, JSP-CSS serving the frontend and PostgreSQL as database.
     <br />
