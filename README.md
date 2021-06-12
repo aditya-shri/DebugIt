@@ -70,7 +70,9 @@ Here's why Debug it helps increase productivity:
 * Developer will be able to see all the bugs assigned to them
 * Tester will be able to see the bugs they need to test and update their severity
 
-Of course, no product can be completly helpful since everyone needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. 
+Of course, no product can be completly helpful since everyone needs may be different. So I'll be adding more in the near future. You may also suggest changes by opening an issue. 
+
+Note : In order to avoid plagiarism, I have removed some files from the project directory. Without them , this app will not work. If you want to use the project for personal use, please <a href="#contact">Contact</a> me
 
 ### Built With
 
