@@ -28,7 +28,7 @@
   </a>
 
   <p align="center">
-    An awesome bug tracking web application made using Java-Servlet handling the backend, JSP-CSS serving the frontend and PostgreSQL as database.
+    An awesome bug tracking web application made using Java-Servlet handling the backend, JSP-CSS serving the frontend and PostgreSQL/MySQL as database.
     <br />
     <a href="https://github.com/aditya-shri/DebugIt"><strong>Explore the docs »</strong></a>
     <br />
@@ -81,6 +81,7 @@ This section should list any major frameworks that you built your project using.
 * [JSP](https://www.oracle.com/java/technologies/jspt.html)
 * [Servlet](https://en.wikipedia.org/wiki/Jakarta_Servlet)
 * [PostgreSQL](https://www.postgresql.org/)
+* [MySQL](https://www.mysql.com/)
 
 <!-- USAGE EXAMPLES -->
 ## Screenshots
