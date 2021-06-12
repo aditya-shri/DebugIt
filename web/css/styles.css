@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logintopnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+}
+.logintopnav .name {
+    overflow: hidden;
+    height: 10vh;
+    color: #f2f2f2;
+    font-size: calc(0.5em + 1.75vw);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login table.info {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+.login .info tr, .info td {
+    border: 0;
+    text-align: center;
+}
+.login .info th {
+    border: 0;
+    padding-right: 1vw;
+    text-align: center;
+}
+.login input[type=text] {
+    padding: 1vh;
+    width: 8vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.login input[type=password] {
+    padding: 1vh;
+    width: 8vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.topnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+}
+.topnav a.home {
+    float: left;
+    overflow: hidden;
+    width: 14vw;
+    height: 10vh;
+    color: #f2f2f2;
+    font-size: calc(0.5em + 1.75vw);
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav span {
+    font-size: calc(0.5em + 1.75vw);
+    margin-left: calc(0.5em + 34.5vw);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 14vw;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.topnav a.logout {
+    float: right;
+    height: 10vh;
+    color: #f2f2f2;
+    padding-right: 1vw;
+    text-decoration: none;
+    font-size: calc(0.5em + 0.8vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav a.home:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.logout:hover {
+    color: #818181;
+}
+
+.bottom {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 6vh;
+    width: 100%;
+    background-color: #333333;
+    align-items: center;
+    justify-content: center;
+}
+.bottom span {
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: calc(0.5em + 0.8vw);
+}
+.bottom span:hover {
+    color: #818181;
+}
+
+.settingnav {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    bottom: 6vh;
+    height: 6vh;
+    width: 14vw;
+    padding-top: 3vh;
+    background-color: #111;
+    text-align: center;
+}
+.settingnav a{
+    position: relative;
+    padding: 0 1vw;
+    left: 0;
+    display: block;
+    font-size: calc(0.5em + 1.3vw);
+    color: #818181;
+    text-decoration: none;
+}
+.settingnav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav {
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    left: 0;
+    top: 10vh;
+    bottom: 12vh;
+    height: auto;
+    width: 14vw;
+    padding-top: 3vh;
+    background-color: #111;
+    text-align: center;
+}
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+.sidenav a, dropdown-btn {
+    position: relative;
+    padding: 3vh 1vw;
+    left: 0;
+    display: block;
+    font-size: calc(0.5em + 1.3vw);
+    color: #818181;
+    text-decoration: none;
+}
+.sidenav a.item {
+    position: relative;
+    padding: 1.5vh 1vw;
+    left: 0;
+    display: block;
+    font-size: calc(0.5em + 1vw);
+    color: #818181;
+    text-decoration: none;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+.active {
+    background-color: #333333;
+    color: white;
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.main {
+    position: absolute;
+    overflow-y: auto;
+    font-size: calc(0.5em + 0.9vw);
+    padding-left: calc(0.5em + 0.5vw);
+    padding-right: calc(0.5em + 0.5vw);
+    top: 10vh;
+    bottom: 6vh;
+    left: 14vw;
+    right: 0;
+    height: auto;
+}
+.main form.fm {
+    text-align: center;
+}
+.main input.in {
+    padding: 1vh;
+    width: 10vw;
+}
+.main table.info {
+    margin-left: 2vw;
+    border: 0;
+}
+.main .info th, .info tr, .info td {
+    border: 0;
+    padding-right: 1vw;
+    text-align: left;
+}
+
+.bug table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bug th {
+    width: 20vw;
+}
+.bug select{
+    padding: 0.8vh;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 4px;
+    text-align-last: center;
+}
+.bug input[type=text]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0.5px solid #818181;
+    width: 19.5vw;
+    text-align: center;
+}
+.bug input[type=password]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0.5px solid #818181;
+    width: 19.5vw;
+    text-align: center;
+}
+
+.bugdelete table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bugdelete th {
+    width: 20vw;
+}
+.bugdelete select{
+    padding: 0.8vh;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 4px;
+    text-align-last: center;
+}
+.bugdelete input[type=text]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
+    width: 19.5vw;
+    text-align: center;
+}
+.bugdelete input[type=password]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
+    width: 19.5vw;
+    text-align: center;
+}
+.bugdelete input[type=checkbox][readonly] {
+    pointer-events: none;
+}
+
+td {
+    text-align: center;
+    height: 6vh;
+}
+th {
+    height: 7vh;
+}
+table, th, td {
+    border: 1px solid white;
+}
+form {
+    font-size: calc(0.5em + 0.9vw);
+    text-align: center;
+}
+input[type=text] {
+    padding: 1vh;
+    width: 10vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=password] {
+    padding: 1vh;
+    width: 10vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    background-color: #4f4f4f;
+    padding: 1vh;
+    width: 10vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
