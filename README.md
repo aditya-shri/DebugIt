@@ -117,6 +117,6 @@ Project Link: [Debug-It](https://github.com/aditya-shri/DebugIt)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/aditya-shri/DebugIt/LICENSE.txt
+[license-url]: https://github.com/aditya-shri/DebugIt/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aditya-shri
