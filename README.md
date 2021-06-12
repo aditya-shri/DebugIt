@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/aditya-shri/DebugIt">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="200" height="80">
   </a>
 
   <h3 align="center">Debug-It</h3>
@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/logo.png" alt="Logo" width="80" height="80">
+<img src="images/logo.png" alt="Logo" width="200" height="80">
 
 Debug-it is a powerful bug tracker that helps you to view issues filtered by severity. It improves the productivity by exactly knowing which bugs are reproducible. It is an online tool that allows you to create projects, bugs etc. on a single platform. Using Debug-it, you can bring all the team under a single platform where all the details about the project is available. You can add/remove developer and tester from the project, easily see all your projects, their bugs etc.
 
